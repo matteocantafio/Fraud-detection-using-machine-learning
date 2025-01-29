@@ -1,6 +1,6 @@
 # Fraud Detection with Machine Learning
 
-This project was initially developed for a university course on Data Mining using the **Orange data mining visual programming software**. It has since been reimplemented in Python using Google Colab for more flexibility and control.
+This project was initially developed for a university course on Data Mining using the **Orange data mining visual programming software**. It has since been reimplemented in Python using Google Colab as a personal project.
 
 ## Project Overview
 
