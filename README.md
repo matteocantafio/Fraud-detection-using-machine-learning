@@ -16,8 +16,8 @@ The first approach focuses on the following steps:
 
 *   **Exploratory Data Analysis (EDA):** Initial analysis using tools like Feature Statistics, Distribution, Box Plot, and Scatter Plot. This helped understand the data's characteristics, including identifying that the dataset has no missing values. The average transaction amount is around $88.
 *   **Data Preprocessing:** Standardization of *Amount* and *Time* features using z-score scaling to prevent numerical instability.
-*   **Feature Selection:** Using a scree plot to visualize variance associated with each feature [4]. The top features were selected which explained 90% of the total variance [2, 4]. Specifically, features from **V1 to V19** were chosen. Correlation analysis ensured independence between the selected features.
-*   **Data Balancing:** To address class imbalance, Random Undersampling was applied to balance the dataset. **All 492 fraudulent transactions** were kept and **800 non-fraudulent transactions were randomly selected**. This resulted in a balanced dataset of 1292 instances [5]. This step was done **before the training**.
+*   **Feature Selection:** Using a scree plot to visualize variance associated with each feature. The top features were selected which explained 90% of the total variance. Specifically, features from **V1 to V19** were chosen. Correlation analysis ensured independence between the selected features.
+*   **Data Balancing:** To address class imbalance, Random Undersampling was applied to balance the dataset. **All 492 fraudulent transactions** were kept and **800 non-fraudulent transactions were randomly selected**. This resulted in a balanced dataset of 1292 instances. This step was done **before the training**.
 *   **Model Training:** Three machine learning models were implemented:
     *   Support Vector Machine (SVM)
     *   Neural Network
